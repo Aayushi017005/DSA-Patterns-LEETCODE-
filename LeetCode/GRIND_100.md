@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 6 / 100 (6.0%)
+- **Completed:** 7 / 100 (7.0%)
 
 ---
 
@@ -47,7 +47,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Linked List Cycle
 - [ ] Linked List Cycle II
 - [ ] Merge Two Sorted Lists
-- [ ] Remove Nth Node From End of List
+- [x] [Remove Nth Node From End of List](./C++/Medium/19. Remove Nth Node From End of List/)
 - [ ] Intersection of Two Linked Lists
 - [x] [Add Two Numbers](./C++/Medium/2. Add Two Numbers/)
 - [ ] Copy List with Random Pointer
