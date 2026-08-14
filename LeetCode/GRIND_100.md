@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 1 / 100 (1.0%)
+- **Completed:** 2 / 100 (2.0%)
 
 ---
 
@@ -49,7 +49,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Merge Two Sorted Lists
 - [ ] Remove Nth Node From End of List
 - [ ] Intersection of Two Linked Lists
-- [ ] Add Two Numbers
+- [x] [Add Two Numbers](./C++/Medium/2. Add Two Numbers/)
 - [ ] Copy List with Random Pointer
 - [ ] LRU Cache
 - [ ] Sort List
