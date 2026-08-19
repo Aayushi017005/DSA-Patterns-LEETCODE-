@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 8 / 75 (10.7%)
+- **Completed:** 9 / 75 (12.0%)
 
 ---
 
@@ -69,7 +69,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 ### 📂 Matrix
 - [ ] Set Matrix Zeroes
 - [ ] Spiral Matrix
-- [ ] Rotate Image
+- [x] [Rotate Image](./C++/Medium/48. Rotate Image/)
 - [ ] Word Search
 
 ### 📂 String
