@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 13 / 100 (13.0%)
+- **Completed:** 14 / 100 (14.0%)
 
 ---
 
@@ -73,7 +73,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Merge Two Binary Trees
 
 ### 📂 Backtracking & Search
-- [ ] Permutations
+- [x] [Permutations](./C++/Medium/46. Permutations/)
 - [ ] Subsets
 - [x] [Combination Sum](./C++/Medium/39. Combination Sum/)
 - [ ] Word Search
