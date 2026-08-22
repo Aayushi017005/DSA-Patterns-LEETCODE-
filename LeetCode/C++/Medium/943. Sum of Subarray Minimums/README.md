@@ -8,7 +8,7 @@
 Array, Dynamic Programming, Stack, Monotonic Stack
 
 ### 🚀 Performance
-- **Runtime:** 269 ms
+- **Runtime:** 37 ms
 - **Memory:** 193.6 MB
 
 ---
