@@ -60,9 +60,10 @@ public:
             long long left = i - psee[i];
             long long right = nse[i] - i;
 
-            total = (total + left * right * arr[i]) % mod;
+            total =( (total + left * right * arr[i]) % mod)%mod;
         }
 
         return total;
     }
 };
+//
