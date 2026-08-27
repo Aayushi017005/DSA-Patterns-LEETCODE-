@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 21 / 100 (21.0%)
+- **Completed:** 22 / 100 (22.0%)
 
 ---
 
@@ -78,7 +78,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [x] [Combination Sum](./C++/Medium/39. Combination Sum/)
 - [ ] Word Search
 - [x] [Generate Parentheses](./C++/Medium/22. Generate Parentheses/)
-- [ ] Search a 2D Matrix
+- [x] [Search a 2D Matrix](./C++/Medium/74. Search a 2D Matrix/)
 - [ ] Search a 2D Matrix II
 - [x] [Search in Rotated Sorted Array](./C++/Medium/33. Search in Rotated Sorted Array/)
 - [x] [Find First and Last Position of Element in Sorted Array](./C++/Medium/34. Find First and Last Position of Element in Sorted Array/)
