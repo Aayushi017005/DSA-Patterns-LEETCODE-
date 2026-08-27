@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 5 / 76 (6.6%)
+- **Completed:** 6 / 76 (7.9%)
 
 ---
 
@@ -17,7 +17,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Sort Colors
 - [ ] Best Time to Buy and Sell Stock
 - [x] [Rotate Image](./C++/Medium/48. Rotate Image/)
-- [ ] Merge Intervals
+- [x] [Merge Intervals](./C++/Medium/56. Merge Intervals/)
 - [ ] Find the Duplicate Number
 - [ ] Trapping Rain Water
 
