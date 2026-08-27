@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 7 / 150 (4.7%)
+- **Completed:** 8 / 150 (5.3%)
 
 ---
 
@@ -138,7 +138,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Partition Equal Subset Sum
 
 ### 📂 2-D Dynamic Programming
-- [ ] Unique Paths
+- [x] [Unique Paths](./C++/Medium/62. Unique Paths/)
 - [ ] Longest Common Subsequence
 - [ ] Best Time to Buy and Sell Stock with Cooldown
 - [ ] Coin Change II
