@@ -5,7 +5,7 @@ public:
         int n = grid[0].size();
         
         long long total = 0;
-        
+       
         // Step 1: total sum
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {

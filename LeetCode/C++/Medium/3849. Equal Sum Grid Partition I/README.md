@@ -8,8 +8,8 @@
 Array, Matrix, Enumeration, Prefix Sum
 
 ### 🚀 Performance
-- **Runtime:** 10 ms
-- **Memory:** 126.4 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
