@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 11 / 76 (14.5%)
+- **Completed:** 12 / 76 (15.8%)
 
 ---
 
@@ -65,7 +65,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Valid Parentheses
 - [ ] Next Greater Element I
 - [ ] Next Greater Element II
-- [ ] Largest Rectangle in Histogram
+- [x] [Largest Rectangle in Histogram](./C++/Hard/84. Largest Rectangle in Histogram/)
 - [ ] Sliding Window Maximum
 - [x] [Min Stack](./C++/Medium/155. Min Stack/)
 - [ ] Rotting Oranges
