@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 12 / 76 (15.8%)
+- **Completed:** 13 / 76 (17.1%)
 
 ---
 
@@ -19,7 +19,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Rotate Image](./C++/Medium/48. Rotate Image/)
 - [x] [Merge Intervals](./C++/Medium/56. Merge Intervals/)
 - [ ] Find the Duplicate Number
-- [ ] Trapping Rain Water
+- [x] [Trapping Rain Water](./C++/Hard/42. Trapping Rain Water/)
 
 ### 📂 Two Pointers & Hashing
 - [x] [Search a 2D Matrix](./C++/Medium/74. Search a 2D Matrix/)
