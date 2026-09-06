@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 16 / 150 (10.7%)
+- **Completed:** 17 / 150 (11.3%)
 
 ---
 
@@ -145,7 +145,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Target Sum
 - [ ] Interleaving String
 - [ ] Longest Increasing Path in a Matrix
-- [ ] Distinct Subsequences
+- [x] [Distinct Subsequences](./C++/Hard/115. Distinct Subsequences/)
 - [ ] Edit Distance
 - [ ] Burst Balloons
 - [ ] Regular Expression Matching
