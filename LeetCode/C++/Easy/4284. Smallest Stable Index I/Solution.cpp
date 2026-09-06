@@ -27,3 +27,7 @@ public:
         return -1;
     }
 };
+/*If I need information about the array from the beginning up to i, think PREFIX.
+If I need information from i to the end, think SUFFIX.
+If I need information from both sides of i, think PREFIX + SUFFIX.
+If I am repeatedly scanning ranges, ask whether Prefix/Suffix can precompute the information in O(n).
