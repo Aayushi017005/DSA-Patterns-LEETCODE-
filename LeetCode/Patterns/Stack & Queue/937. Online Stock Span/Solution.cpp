@@ -1,35 +1,23 @@
 class StockSpanner {
 public:
-stack<int>st;
-vector<int>prices;
-    StockSpanner() {
-        
-    }
-    
+    vector<int> prices;
+    stack<int> st;
+    int index = 0;
+
     int next(int price) {
-        //int span=0;
-        int index=0;
-        while(!st.empty()&& prices[st.top()]<=price){
+
+        while (!st.empty() && prices[st.top()] <= price) {
             st.pop();
         }
-        int pge;
-        if(st.empty()){
-            pge=-1;
-        }
-        else{
-            pge=st.top();
-        }
-        int span= index-pge;
-        index++;
-        //storing span and index to calculate the consecutive days;
+
+        int pge = st.empty() ? -1 : st.top();
+
+        int span = index - pge;
+
+        prices.push_back(price);
         st.push(index);
-        prices.push_back(index);
+        index++;
+
         return span;
     }
 };
-
-/**
- * Your StockSpanner object will be instantiated and called as such:
- * StockSpanner* obj = new StockSpanner();
- * int param_1 = obj->next(price);
- */
