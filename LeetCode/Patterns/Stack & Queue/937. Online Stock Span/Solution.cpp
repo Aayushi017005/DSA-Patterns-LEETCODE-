@@ -1,23 +1,30 @@
 class StockSpanner {
 public:
-vector<int>arr;
+stack<int>st;
+vector<int>prices;
     StockSpanner() {
-           
+        
     }
     
     int next(int price) {
-int currspan=1;
-arr.push_back(price);
- for(int i=arr.size()-2;i>=0;i--){
-    if(arr[i]<=price){
-     currspan++;
-    }
-   
-    else{
-        break;
-    }
- }
-        return currspan;
+        //int span=0;
+        int index=0;
+        while(!st.empty()&& prices[st.top()]<=price){
+            st.pop();
+        }
+        int pge;
+        if(st.empty()){
+            pge=-1;
+        }
+        else{
+            pge=st.top();
+        }
+        int span= index-pge;
+        index++;
+        //storing span and index to calculate the consecutive days;
+        st.push(index);
+        prices.push_back(index);
+        return span;
     }
 };
 
