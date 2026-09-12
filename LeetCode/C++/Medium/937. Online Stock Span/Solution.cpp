@@ -1,6 +1,6 @@
 class StockSpanner {
 public:
-    stackpair<<int,int>>st;
+    stack<pair<int,int>>st;
     int index = 0;
 
     int next(int price) {
