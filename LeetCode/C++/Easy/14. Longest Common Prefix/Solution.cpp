@@ -11,7 +11,7 @@ public:
         while(i<str1.length() && i<strLast.length() && str1[i]==strLast[i]){
             i++;
         }
-          return strs.substr(0,i);
+          return str1.substr(0,i);
     }
 };
 
