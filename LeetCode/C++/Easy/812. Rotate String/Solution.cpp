@@ -12,7 +12,7 @@ public:
   return false;
   // concatenation of string s= "abc" then s= "abcabc" now find goal and all possible combination of this str we ca get get it if length is equal.
  string concatenationSTR = s+s;
- if(concatenationSTR.find(goal) != std::npos){ // npos means no position or not found instead of returning -1, and (!= str::npos )means->true 
+ if(concatenationSTR.find(goal) != string::npos){ // npos means no position or not found instead of returning -1, and (!= str::npos )means->true 
  return true;
  }
      return false;   
