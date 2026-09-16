@@ -1,6 +1,29 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
+        // sorting the whole array so that string arranged in sorted alphabetical order
+        //{ flight, flow, flower}
+        sort(strs.begin(),strs.end());
+
+        char str1= strs[0];
+        char strLast = strs[strs.length()-1];
+         int i = 0;
+        while(i<str1.length() && i<strLast.length() && str1[i]==strLast[i]){
+            i++;
+        }
+          return strs.substr(0,i);
+    }
+};
+
+
+
+
+
+
+
+/*class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
         string ans="";
        // traverse the character of 1st string
         for(int i =0; i< strs[0].length();i++){
@@ -18,7 +41,7 @@ public:
         }
         return ans;
     }
-};
+};*/
 
 /*class Solution {
 public:
