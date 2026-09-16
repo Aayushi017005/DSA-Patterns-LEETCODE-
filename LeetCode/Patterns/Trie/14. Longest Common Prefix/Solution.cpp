@@ -6,7 +6,7 @@ public:
         sort(strs.begin(),strs.end());
 
         string str1= strs[0];
-        string strLast = strs[strs.length()-1];
+        string strLast = strs[strs.size()-1];
          int i = 0;
         while(i<str1.length() && i<strLast.length() && str1[i]==strLast[i]){
             i++;
