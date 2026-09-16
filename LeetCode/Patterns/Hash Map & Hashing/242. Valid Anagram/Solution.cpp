@@ -20,7 +20,7 @@ for (int i =0; i<s.length();i++){
 /*Same length → same number of characters.
 Same characters with the same frequencies → order/position does not matter.*/
 // so we sort both the str and sort we checked whether both are equalor not if yes  return true else false.
-class Solution {
+/*class Solution {
 public:
     bool isAnagram(string s, string t) {
         sort(begin(s), end(s));
@@ -30,4 +30,4 @@ public:
 
       return false;
     }
-};
+};*/
