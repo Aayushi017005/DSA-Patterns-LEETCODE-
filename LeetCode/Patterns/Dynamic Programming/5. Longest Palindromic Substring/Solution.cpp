@@ -1,31 +1,45 @@
 class Solution {
 public:
-    string longestPalindrome(string s) {
-        int n = s.size();
-        int start = 0, maxLen = 1;
+    class Solution {
+public:
 
-        for(int i = 0; i < n; i++) {
-            // Odd length
-            int l = i, r = i;
-            while(l >= 0 && r < n && s[l] == s[r]) {
-                if(r - l + 1 > maxLen) {
-                    start = l;
-                    maxLen = r - l + 1;
-                }
-                l--; r++;
+    string expandAroundCenter(string s, int low, int high) {
+
+        while(low >= 0 && high < s.size() && s[low] == s[high]) {
+            low--;
+            high++;
+        }
+
+        int start = low + 1;
+        int length = high - low - 1;
+
+        return s.substr(start, length);
+    }
+
+
+    string longestPalindrome(string s) {
+
+        string ans = "";
+
+        for(int i = 0; i < s.size(); i++) {
+
+            // Check odd length palindrome
+            string odd = expandAroundCenter(s, i, i);
+
+            if(odd.length() > ans.length()) {
+                ans = odd;
             }
 
-            // Even length
-            l = i; r = i + 1;
-            while(l >= 0 && r < n && s[l] == s[r]) {
-                if(r - l + 1 > maxLen) {
-                    start = l;
-                    maxLen = r - l + 1;
-                }
-                l--; r++;
+
+            // Check even length palindrome
+            string even = expandAroundCenter(s, i, i + 1);
+
+            if(even.length() > ans.length()) {
+                ans = even;
             }
         }
 
-        return s.substr(start, maxLen);
+        return ans;
     }
 };
+  
