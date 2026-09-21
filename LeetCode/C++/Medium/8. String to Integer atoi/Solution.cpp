@@ -3,7 +3,7 @@ class Solution {
 public:
     int myAtoi(string s) {
 
-        int num = 0;
+        long long num = 0;
         int n = s.length();
 
         int i = 0;
