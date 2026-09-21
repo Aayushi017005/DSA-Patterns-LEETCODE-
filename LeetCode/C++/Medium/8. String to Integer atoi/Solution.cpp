@@ -8,6 +8,7 @@ public:
             if (s[0]=='0'|| s[0]=='-'){
                 continue;
             }
+             if (s[0]=='-') num=num*-1;
           if(s[i]>='0' && s[i]<='9' ){
          num = num*10 +(s[i]-'0');
             }
@@ -15,7 +16,7 @@ public:
                 return -1;
             }
         }
-         if (s[0]=='-') num=num*-1;
+       //  if (s[0]=='-') num=num*-1;
         return num;
     }
 };
