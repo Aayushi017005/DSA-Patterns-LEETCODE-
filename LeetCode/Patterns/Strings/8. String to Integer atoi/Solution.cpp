@@ -5,7 +5,7 @@ public:
         int n = s.length()-1;
             
         for(int i=0; i<=n; i++){
-            if (i=='0'|| s[i]=='-'){
+            if (s[i]=='0'|| s[i]=='-'){
                 continue;
             }
           if(s[i]>='0' && s[i]<='9' ){
@@ -15,7 +15,7 @@ public:
                 return -1;
             }
         }
-       //  if (s[0]=='-') num=num*-1;
+        if (s[0]=='-') num=num*-1;
         return num;
     }
 };
