@@ -5,7 +5,7 @@ public:
         int n = s.length()-1;
 
         for(int i=0; i<=n; i++){
-            if (s[i]=='0'|| s[i]=='-'){
+            if (s[0]=='0'|| s[0]=='-'){
                 continue;
             }
             if(s[i]>='0' && s[i]>='9'  ){
