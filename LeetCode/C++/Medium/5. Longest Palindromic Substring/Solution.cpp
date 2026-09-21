@@ -1,7 +1,7 @@
 class Solution {
 public:
-    class Solution {
-public:
+   
+
 
     string expandAroundCenter(string s, int low, int high) {
 
