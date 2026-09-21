@@ -1,34 +1,21 @@
 class Solution {
 public:
     int myAtoi(string s) {
-        int i = 0, n = s.size();
+        int num =0;
+        int n = s.size()-1;
 
-        // Step 1: skip spaces
-        while(i < n && s[i] == ' ') i++;
-
-        // Step 2: sign
-        int sign = 1;
-        if(i < n && (s[i] == '+' || s[i] == '-')) {
-            if(s[i] == '-') sign = -1;
-            i++;
-        }
-
-        // Step 3: process digits
-        int result = 0;
-
-        while(i < n && isdigit(s[i])) {
-            int digit = s[i] - '0';
-
-            // Step 4: overflow check
-            if(result > INT_MAX / 10 || 
-              (result == INT_MAX / 10 && digit > 7)) {
-                return sign == 1 ? INT_MAX : INT_MIN;
+        for(int i=0; i<=n; i++){
+            if (s[i]=='0' || s[i]=='-'){
+                continue;
             }
-
-            result = result * 10 + digit;
-            i++;
+            if(s[i]<='0' || s[i]<='9'  ){
+                num = num*10 +(s[i]-'0');
+            }
+            else {
+                return -1;
+            }
+            if (s[0]=='-') num=num*-1;
         }
-
-        return result * sign;
+        return num;
     }
 };
