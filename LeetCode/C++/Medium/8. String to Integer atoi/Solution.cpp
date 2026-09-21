@@ -3,10 +3,11 @@ public:
     int myAtoi(string s) {
         int num =0;
         int n = s.length()-1;
-   if (s[0]=='0'|| s[0]=='-'){
+            
+        for(int i=0; i<=n; i++){
+            if (s[0]=='0'|| s[0]=='-'){
                 continue;
             }
-        for(int i=0; i<=n; i++){
           if(s[i]>='0' && s[i]<='9' ){
          num = num*10 +(s[i]-'0');
             }
