@@ -14,9 +14,7 @@ public:
           return str1.substr(0,i);
     }
 };
-
-
-
+         
 
 
 
