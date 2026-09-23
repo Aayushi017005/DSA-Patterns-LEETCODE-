@@ -8,7 +8,7 @@
 String, String Matching
 
 ### 🚀 Performance
-- **Runtime:** 5 ms
+- **Runtime:** 0 ms
 - **Memory:** 8.1 MB
 
 ---
