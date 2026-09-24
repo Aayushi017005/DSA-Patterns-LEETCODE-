@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 2 / 238 (0.8%)
+- **Completed:** 4 / 238 (1.7%)
 
 ---
 
@@ -193,7 +193,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] First Palindromic String
 - [ ] Reverse Only Letters
 - [ ] Reverse Vowels of a String
-- [ ] Longest Substring Without Repeating Characters
+- [x] [Longest Substring Without Repeating Characters](./C++/Medium/3. Longest Substring Without Repeating Characters/)
 - [ ] Jewels and Stones
 - [ ] Find the Difference
 - [ ] Ransom Note
@@ -213,7 +213,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ### 📂 PART  2: SUBSTRINGS, PATTERNS & INTENTIO
 - [ ] Substrings with Three Distinct Characters
-- [ ] Longest Substring Without Repeating Characters
+- [x] [Longest Substring Without Repeating Characters](./C++/Medium/3. Longest Substring Without Repeating Characters/)
 - [ ] Check Prefix of String
 - [ ] Minimize String Length
 - [ ] Encrypted String
