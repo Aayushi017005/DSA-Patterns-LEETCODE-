@@ -29,3 +29,4 @@ public:
         return true ;
     }
 };
+// har customer neebu kharidne aayga with paiso ke saath and har neebu cost 5 ruppee hai toh hume usse bache hue ruppe vapas krne hai customer agar bachte hai toh otherwise return possible hi hai so we return false .
