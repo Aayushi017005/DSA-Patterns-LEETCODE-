@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 13 / 238 (5.5%)
+- **Completed:** 14 / 238 (5.9%)
 
 ---
 
@@ -80,7 +80,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ### 📂 MODULE  3.3: INPLACE ARRAY MODIFICATION
 - [ ] Move Zeroes
-- [ ] Remove Duplicates from Sorted Array
+- [x] [Remove Duplicates from Sorted Array](./C++/Easy/26. Remove Duplicates from Sorted Array/)
 - [ ] Remove Element
 - [ ] Remove Duplicates II
 - [ ] Duplicate Zeros
