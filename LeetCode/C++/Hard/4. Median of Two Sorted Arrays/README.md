@@ -8,8 +8,8 @@
 Array, Binary Search, Divide and Conquer
 
 ### 🚀 Performance
-- **Runtime:** 3 ms
-- **Memory:** 95 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
