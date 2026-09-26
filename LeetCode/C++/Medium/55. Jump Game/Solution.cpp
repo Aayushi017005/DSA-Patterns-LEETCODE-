@@ -6,6 +6,7 @@ public:
         // this condn means what if you  never reached and your i get updated becoz i++ and this is only when 0 is present in arr and ans is false;
         if (i>MaxIDX) return false;
         MaxIDX= max(MaxIDX, i+ nums[i]);
+        if(nums[i]==0 && MaxIDX==i) return false;
        }
        return true;
     }
