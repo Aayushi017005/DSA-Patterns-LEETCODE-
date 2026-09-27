@@ -8,8 +8,8 @@
 String, Dynamic Programming, Greedy, Recursion
 
 ### 🚀 Performance
-- **Runtime:** 49 ms
-- **Memory:** 15.9 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
