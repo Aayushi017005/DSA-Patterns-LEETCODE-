@@ -1,4 +1,4 @@
-
+// optimal approach -2;
 class Solution {
 public:
     int beautySum(string s) {
@@ -35,15 +35,7 @@ public:
 };
 
 
-
-
-
-
-
-
-
-
-/*BRUTE FORCE APPROACH -
+/*optimal FORCE APPROACH - 1;
 in this question , we have to find all the possible substr and in each str we calculate the beauty of that substr(most freq- least freq) and the summation of all substring return beauty .
 -find the subsrtings
 - calculate the mcf and lcf and then beauty.
