@@ -8,7 +8,7 @@ public:
         // checking the ending points of intervals and strting pt of new intervals if they aren't overlapping add to the res.
         int i ;
         while(i<n && intervals[i][0] < newInterval[0] ){
-            res.add(intervals[i]);
+            res.push(intervals[i]);
             i= i+1;
         }
         //  sorting and merge overlapping intervals with new one
