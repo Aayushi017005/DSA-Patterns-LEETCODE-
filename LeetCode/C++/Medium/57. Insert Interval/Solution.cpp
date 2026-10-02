@@ -6,7 +6,7 @@ public:
         // left portion before adding newInterval
         //insert all intervals before new interval
         // checking the ending points of intervals and strting pt of new intervals if they aren't overlapping add to the res.
-        int i ;
+        int i =0;
         while(i<n && intervals[i][1] < newInterval[0] ){
             res.push_back(intervals[i]);
             i= i+1;
