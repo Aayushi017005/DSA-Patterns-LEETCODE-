@@ -16,8 +16,9 @@ public:
             newInterval[0] = min(newInterval[0],intervals[i][0]);
             newInterval[1] = max(newInterval[1], intervals[i][1]);
             i=i+1;
-        }
         res.push_back(newInterval);
+
+        }
          // add right portion of arr after new interval 
         while(i<n){
             res.push_back(intervals[i]);
