@@ -12,7 +12,7 @@ public:
             i= i+1;
         }
         //  sorting and merge overlapping intervals with new one
-        while(i<n && intervals[i][0]<= newIntervals[1]){
+        while(i<n && intervals[i][0]<= newInterval[1]){
             newIntwerval[0] = min(newInterval[0],intervals[i][0]);
             newInterval [1] = max(newIntervals[1], intervals[i][1]);
             i=i+1;
