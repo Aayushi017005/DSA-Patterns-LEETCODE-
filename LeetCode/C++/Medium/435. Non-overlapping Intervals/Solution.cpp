@@ -7,7 +7,7 @@ public:
             // both are rows and we want its end so thats why accessd in this way;
             return a[1]< b[1];
         });
-        int cnt=0 ; int LastendTime=intervals[0][1]; int n = intervals.size();
+        int cnt=1 ; int LastendTime=intervals[0][1]; int n = intervals.size();
         for(int i =0; i<n;i++){
 
             if(intervals[i][0]>= LastendTime){
