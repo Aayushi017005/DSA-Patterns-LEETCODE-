@@ -8,7 +8,7 @@ public:
             return a[1]< b[1];
         });
         int cnt=0 ; int LastendTime=intervals[0][1]; int n = intervals.size();
-        for(int i =1; i<n;i++){
+        for(int i =0; i<n;i++){
 
             if(intervals[i][0]>= LastendTime){
                 cnt++;
