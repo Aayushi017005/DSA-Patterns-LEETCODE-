@@ -8,8 +8,8 @@
 Array, Dynamic Programming, Greedy, Sorting
 
 ### 🚀 Performance
-- **Runtime:** 42 ms
-- **Memory:** 93.9 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
