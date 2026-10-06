@@ -26,6 +26,7 @@ public:
 
         }
         // return true if min is 0;
-        return min==0;
+        return min==0; //It is a comparison, and a comparison itself produces a bool.
+        // or we can write if else statement for true and false
         }
 };
