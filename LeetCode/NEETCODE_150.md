@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 37 / 150 (24.7%)
+- **Completed:** 38 / 150 (25.3%)
 
 ---
 
@@ -158,7 +158,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Hand of Straights
 - [ ] Merge Triplets to Form Target Triplet
 - [ ] Partition Labels
-- [ ] Valid Parenthesis String
+- [x] [Valid Parenthesis String](./C++/Medium/678. Valid Parenthesis String/)
 
 ### 📂 Intervals
 - [x] [Insert Interval](./C++/Medium/57. Insert Interval/)
