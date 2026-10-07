@@ -24,7 +24,7 @@ public: // slope concept
             i++;
          } 
          if(down > peak) {
-            sum = sum + (down - peak)
+            sum = sum + (down - peak);
          }
         }
         return sum;
