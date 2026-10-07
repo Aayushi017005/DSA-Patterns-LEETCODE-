@@ -2,7 +2,7 @@ class Solution {
 public: // slope concept 
     int candy(vector<int>& ratings) {
         int n = ratings.size();
-        int sum = 1; int i = 1; int peak = 0;
+        int sum = 1; int i = 1; int peak = 1;
 
         while(i<n){
      // if slope is linear or coressponding points or ratings
