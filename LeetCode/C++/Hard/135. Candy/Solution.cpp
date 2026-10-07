@@ -17,7 +17,7 @@ public: // slope concept
             i++;
          }
          // decreasing slope 
-          int down = 0;
+          int down = 1;
          while(i<n && ratings[i-1] > ratings[i]){
             sum= sum +down;
             down = down +1;
