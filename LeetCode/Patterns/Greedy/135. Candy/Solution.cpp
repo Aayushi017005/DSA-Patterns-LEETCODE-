@@ -1,4 +1,37 @@
 class Solution {
+public: // slope concept 
+    int candy(vector<int>& ratings) {
+        int n = ratings.size();
+        int sum = 1; int i = 1; int peak = 0;
+
+        while(i<n){
+     // if slope is linear or coressponding points or ratings
+        if (ratings[i]==ratings[i-1]){
+         sum = sum + 1; i++; continue; // this continue statement means if two el equal sum + by 1 and move to 3rd element
+        }
+          peak=1;
+         // increasing slope 
+         while(i<n && ratings[i-1] < ratings[i]){
+            peak = peak+1;
+            sum = sum + peak; 
+            i++;
+         }
+         // decreasing slope 
+          int down = 1;
+         while(i<n && ratings[i-1] > ratings[i]){
+            sum= sum +down;
+            down = down +1;
+            i++;
+         } 
+         if(down > peak) {
+            sum = sum + (down - peak)
+         }
+        }
+        return sum;
+    }
+};
+
+/*class Solution {
 public:
     int candy(vector<int>& ratings) {
         int n = ratings.size();
@@ -29,4 +62,4 @@ public:
           }
           return ans;
     }
-};
+};*/
