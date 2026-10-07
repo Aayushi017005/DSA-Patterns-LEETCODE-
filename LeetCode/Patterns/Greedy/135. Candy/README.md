@@ -8,8 +8,8 @@
 Array, Greedy
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 4 ms
+- **Memory:** 68.3 MB
 
 ---
 
