@@ -6,7 +6,7 @@ public:
 
         for(int i = 0; i < n; i++) {
 
-            map<char, int> mp ;
+            map<char, long long> mp ;
 
             for(int j = i; j < n; j++) {
 
