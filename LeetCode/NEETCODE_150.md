@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 38 / 150 (25.3%)
+- **Completed:** 39 / 150 (26.0%)
 
 ---
 
@@ -154,7 +154,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Maximum Subarray
 - [x] [Jump Game](./C++/Medium/55. Jump Game/)
 - [x] [Jump Game II](./C++/Medium/45. Jump Game II/)
-- [ ] Gas Station
+- [x] [Gas Station](./C++/Medium/134. Gas Station/)
 - [ ] Hand of Straights
 - [ ] Merge Triplets to Form Target Triplet
 - [ ] Partition Labels
