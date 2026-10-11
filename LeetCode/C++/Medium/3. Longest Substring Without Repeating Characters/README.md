@@ -8,7 +8,7 @@
 Hash Table, String, Sliding Window
 
 ### 🚀 Performance
-- **Runtime:** 75 ms
+- **Runtime:** 48 ms
 - **Memory:** 19.2 MB
 
 ---
