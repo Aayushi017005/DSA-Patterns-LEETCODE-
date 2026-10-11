@@ -1,11 +1,17 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        // two ptr and sliding window approach 
+        // two ptr and sliding window approach  
         int l =0 ;int r=0; int len =0; int maxlen=0;
        unordered_map<char,int>hash;
          while(r< s.size()){
-         if (hash.find(s[r]) != hash.end()){
+       
+   /*Meaning: Have we seen this character before?
+   hash.find(s[r]) searches for the current character in the map.
+   hash.end() represents the position after the last element, so if find() returns end(), the character is not present.*/
+         if (hash.find(s[r]) != hash.end()){ 
+
+        // checks if the char is in map  is within the window or before the the window 
             if(hash[s[r]]>=l){
          l = hash[s[r]] +1;
             }
