@@ -8,12 +8,11 @@ public:
           maxfreq = max(maxfreq,mpp[s[r]]);
           int changes = (r-l+1) - maxfreq;
             if(changes>k){
-                mpp[s[r]]--; //maxfreq =0;
+                mpp[s[l]]--; 
                 l=l+1;
             }
             if(changes <= k){
-                maxlen = max(maxlen,r-l+1);
-                r++;
+                maxlen = max(maxlen,r-l+1); r++;
             }
         }
         return maxlen;
