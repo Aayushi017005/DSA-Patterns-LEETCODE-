@@ -4,11 +4,11 @@ public:
         int maxlen =0 ; int maxfreq=0; int l =0;int r=0;
         unordered_map<char,int>mpp;
         while(r<s.size()){
-          mpp[s[r]-'A']++;
-          maxfreq = max(maxfreq,mpp[s[r]-'A']);
+          mpp[s[r]]++;
+          maxfreq = max(maxfreq,mpp[s[r]]);
           int changes = (r-l+1) - maxfreq;
             if(changes>k){
-                mpp[s[r]-'A']--; maxfreq =0;
+                mpp[s[r]]--; maxfreq =0;
                 l=l+1;
             }
             if(changes <= k){
