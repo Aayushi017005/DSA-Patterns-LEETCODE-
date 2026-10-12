@@ -5,7 +5,7 @@ public:
         unordered_map<char,int>mpp;
         while(r<s.size()){
           mpp[s[r]-'A']++;
-          maxfreq = max(maxfreq,mpp[s[j]-'A']);
+          maxfreq = max(maxfreq,mpp[s[r]-'A']);
           int changes = (r-l+1) - maxfreq;
             if(changes>k){
                 mpp[s[r]-'A']--; maxfreq =0;
