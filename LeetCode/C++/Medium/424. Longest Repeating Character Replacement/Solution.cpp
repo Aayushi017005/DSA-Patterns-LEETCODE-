@@ -12,8 +12,9 @@ public:
                 l=l+1;
             }
             if(changes <= k){
-                maxlen = max(maxlen,r-l+1); r++;
+                maxlen = max(maxlen,r-l+1); 
             }
+            r++;
         }
         return maxlen;
     }
