@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 28 / 100 (28.0%)
+- **Completed:** 29 / 100 (29.0%)
 
 ---
 
@@ -28,7 +28,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Sliding Window Maximum
 - [x] [Longest Substring Without Repeating Characters](./C++/Medium/3. Longest Substring Without Repeating Characters/)
 - [ ] Find All Anagrams in a String
-- [ ] Minimum Window Substring
+- [x] [Minimum Window Substring](./C++/Hard/76. Minimum Window Substring/)
 
 ### 📂 Hash Map & String
 - [x] [Group Anagrams](./C++/Medium/49. Group Anagrams/)
