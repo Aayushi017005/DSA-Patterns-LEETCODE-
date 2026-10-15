@@ -12,7 +12,7 @@ public:
         while (r < nums.size()) {
             mp[nums[r]]++;
 
-            while (mp.size() > k) {
+            if (mp.size() > k) {
                 mp[nums[l]]--;
 
                 if (mp[nums[l]] == 0)
