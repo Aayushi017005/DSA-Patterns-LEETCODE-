@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 25 / 76 (32.9%)
+- **Completed:** 26 / 76 (34.2%)
 
 ---
 
@@ -72,7 +72,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Daily Temperatures
 
 ### 📂 Binary Tree & BST
-- [ ] Binary Tree Inorder Traversal
+- [x] [Binary Tree Inorder Traversal](./C++/Easy/94. Binary Tree Inorder Traversal/)
 - [x] [Binary Tree Preorder Traversal](./C++/Easy/144. Binary Tree Preorder Traversal/)
 - [ ] Binary Tree Postorder Traversal
 - [ ] Binary Tree Level Order Traversal
