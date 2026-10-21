@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 26 / 75 (34.7%)
+- **Completed:** 27 / 75 (36.0%)
 
 ---
 
@@ -86,7 +86,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 
 ### 📂 Tree
 - [x] [Maximum Depth of Binary Tree](./C++/Easy/104. Maximum Depth of Binary Tree/)
-- [ ] Same Tree
+- [x] [Same Tree](./C++/Easy/100. Same Tree/)
 - [ ] Invert Binary Tree
 - [ ] Binary Tree Maximum Path Sum
 - [x] [Binary Tree Level Order Traversal](./C++/Medium/102. Binary Tree Level Order Traversal/)
