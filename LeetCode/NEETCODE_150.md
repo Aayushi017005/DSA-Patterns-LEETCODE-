@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 41 / 150 (27.3%)
+- **Completed:** 42 / 150 (28.0%)
 
 ---
 
@@ -74,7 +74,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Same Tree
 - [ ] Subtree of Another Tree
 - [ ] Lowest Common Ancestor of a Binary Search Tree
-- [ ] Binary Tree Level Order Traversal
+- [x] [Binary Tree Level Order Traversal](./C++/Medium/102. Binary Tree Level Order Traversal/)
 - [ ] Binary Tree Right Side View
 - [ ] Count Good Nodes in Binary Tree
 - [x] [Validate Binary Search Tree](./C++/Medium/98. Validate Binary Search Tree/)

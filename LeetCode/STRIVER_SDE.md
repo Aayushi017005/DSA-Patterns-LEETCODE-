@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 27 / 76 (35.5%)
+- **Completed:** 28 / 76 (36.8%)
 
 ---
 
@@ -75,7 +75,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Binary Tree Inorder Traversal](./C++/Easy/94. Binary Tree Inorder Traversal/)
 - [x] [Binary Tree Preorder Traversal](./C++/Easy/144. Binary Tree Preorder Traversal/)
 - [x] [Binary Tree Postorder Traversal](./C++/Easy/145. Binary Tree Postorder Traversal/)
-- [ ] Binary Tree Level Order Traversal
+- [x] [Binary Tree Level Order Traversal](./C++/Medium/102. Binary Tree Level Order Traversal/)
 - [ ] Maximum Depth of Binary Tree
 - [ ] Diameter of Binary Tree
 - [x] [Balanced Binary Tree](./C++/Easy/110. Balanced Binary Tree/)

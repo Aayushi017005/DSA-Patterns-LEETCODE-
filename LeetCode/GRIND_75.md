@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 24 / 75 (32.0%)
+- **Completed:** 25 / 75 (33.3%)
 
 ---
 
@@ -89,7 +89,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Same Tree
 - [ ] Invert Binary Tree
 - [ ] Binary Tree Maximum Path Sum
-- [ ] Binary Tree Level Order Traversal
+- [x] [Binary Tree Level Order Traversal](./C++/Medium/102. Binary Tree Level Order Traversal/)
 - [ ] Serialize and Deserialize Binary Tree
 - [ ] Subtree of Another Tree
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
