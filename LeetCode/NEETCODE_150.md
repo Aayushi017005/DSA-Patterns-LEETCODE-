@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 42 / 150 (28.0%)
+- **Completed:** 43 / 150 (28.7%)
 
 ---
 
@@ -68,7 +68,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 
 ### 📂 Trees
 - [ ] Invert Binary Tree
-- [ ] Maximum Depth of Binary Tree
+- [x] [Maximum Depth of Binary Tree](./C++/Easy/104. Maximum Depth of Binary Tree/)
 - [ ] Diameter of Binary Tree
 - [x] [Balanced Binary Tree](./C++/Easy/110. Balanced Binary Tree/)
 - [ ] Same Tree
