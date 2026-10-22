@@ -24,7 +24,7 @@ int ht(TreeNode*root){
     bool isBalanced(TreeNode* root) {
         if(ht(root) !=-1) return true;
         else  return false;
-    }
+    }//t(N)=o(N)
 };
 
 /*class Solution {
