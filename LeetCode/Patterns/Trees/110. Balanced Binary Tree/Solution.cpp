@@ -23,5 +23,6 @@ public:
           int rh = hieght(root->right);
      if(abs(lh-rh)>1) return false;
      else return true;
+     return isBalanced(root->left) && isBalanced(root->right);
     }
 };
