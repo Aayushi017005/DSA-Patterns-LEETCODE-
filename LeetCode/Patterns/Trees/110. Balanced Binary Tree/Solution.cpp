@@ -14,8 +14,9 @@ public:
     bool isBalanced(TreeNode* root) {
         int lh = isBalanced(root->left);
         int rh = isBalanced(root->right);
-         int Depth = 1+max(lh-rh);
-        if((lh-rh) > 1) return false;
+        int left = 1+max(lh);
+        int right = 1+max(rh);
+        if(left-right) > 1) return false;
         if(root ==NULL) return true;
 
         return true;
