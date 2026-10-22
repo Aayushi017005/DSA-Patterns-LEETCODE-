@@ -12,9 +12,9 @@
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
-        int lh = max(root->left);
-        int rh = max(root->right);
-
+        int lh = isBalanced(root->left);
+        int rh = isBalanced(root->right);
+         int Depth = 1+max(lh-rh);
         if((lh-rh) > 1) return false;
         if(root ==NULL) return true;
 
