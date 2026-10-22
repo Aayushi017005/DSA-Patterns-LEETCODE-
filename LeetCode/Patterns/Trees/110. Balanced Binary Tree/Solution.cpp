@@ -11,6 +11,25 @@
  */
 class Solution {
 public:
+int ht(TreeNode*root){
+    if(root==NULL ) return 0;
+    int lh = ht(root->left);
+    if(lh==-1) return -1;
+    int rh= ht(root->right);
+    if(rh==-1) return -1;
+    if(abs(lh-rh)>1) return -1;
+
+    return 1+max(lh,rh);
+} 
+    bool isBalanced(TreeNode* root) {
+        if(ht(root) !=-1) return true;
+        else false;
+        
+    }
+};
+
+/*class Solution {
+public:
       int hieght(TreeNode* root){
      if(root == NULL) return 0;
      int lh= hieght(root->left);
@@ -25,4 +44,5 @@ public:
     
      return isBalanced(root->left) && isBalanced(root->right);
     }
-};
+};//tn -o(n^2) */
+
