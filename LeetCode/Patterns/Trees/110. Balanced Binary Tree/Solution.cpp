@@ -15,7 +15,7 @@ public:
         if(root==NULL) return 0 ;
           int lh= isBalanced(root->left) ;
           int rh = isBalanced(root->right);
-     
+           int depth = 1+max(lh,rh);
      if(abs(lh-rh)>1) return false;
      else return true;
     }
