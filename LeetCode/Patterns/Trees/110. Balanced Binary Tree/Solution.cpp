@@ -23,8 +23,7 @@ int ht(TreeNode*root){
 } 
     bool isBalanced(TreeNode* root) {
         if(ht(root) !=-1) return true;
-        else false;
-        
+        else  return false;
     }
 };
 
