@@ -20,10 +20,13 @@ int ht(TreeNode*root){
     int diameterOfBinaryTree(TreeNode* root) {
         if(root==NULL) return 0;
         int maxi=0;
+        //calculate ht from the present node 
      int lh=  ht(root->left);
       int rh= ht(root->right);
+      //checks diameterfor every node 
     int ld = diameterOfBinaryTree(root->left);
     int rd = diameterOfBinaryTree(root->right);
+    //compare btw the present diameter and prev store diameter 
     return max(lh+rh,max(ld,rd));
     }
 };
