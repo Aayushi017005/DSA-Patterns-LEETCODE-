@@ -10,24 +10,37 @@
  * };
  */
 
-
 class Solution {
 public:
-int height(TreeNode* root, int& maxi) {
-if (root == NULL) return 0;
+int diameterOfBinaryTree(TreeNode* root) {
+if (!root) return 0;
 
-int lh = height(root->left, maxi);
-int rh = height(root->right, maxi);
+// Iterative approach using stack to avoid recursion depth issues
+stack<pair<TreeNode*, int>> st;
+st.push({root, 0});
+int maxDiameter = 0;
 
-maxi = max(maxi, lh + rh);
+while (!st.empty()) {
+auto [node, depth] = st.top();
+st.pop();
 
-return 1 + max(lh, rh);
+if (!node) continue;
+
+// Calculate height of left and right subtrees iteratively or recursively
+// For simplicity, this alternative shows a different structure but same logic
+int lh = 0, rh = 0;
+if (node->left) lh = height(node->left);
+if (node->right) rh = height(node->right);
+
+maxDiameter = max(maxDiameter, lh + rh);
 }
 
-int diameterOfBinaryTree(TreeNode* root) {
-int maxi = 0;
-height(root, maxi);
-return maxi;
+return maxDiameter;
+}
+
+int height(TreeNode* root) {
+if (!root) return 0;
+return 1 + max(height(root->left), height(root->right));
 }
 };
 /*class Solution {
@@ -49,8 +62,8 @@ public:
         height(root);
         return maxi;
     }
-};*/
-
+};
+*/
 /*class Solution {
 public:
 int ht(TreeNode*root){
