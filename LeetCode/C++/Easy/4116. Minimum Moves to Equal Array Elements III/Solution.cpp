@@ -1,5 +1,5 @@
 class Solution {
-public:
+public://optimal approach
     int minMoves(vector<int>& nums) {
          int maxEL = *max_element(nums.begin(), nums.end());
 int moves = 0;
