@@ -1,6 +1,20 @@
 class Solution {
 public:
     int minMoves(vector<int>& nums) {
+         int maxEL = *max_element(nums.begin(), nums.end());
+int moves = 0;
+
+for(int i = nums.size()-1; i >= 0; i--) {
+    moves += maxEL - nums[i];
+}
+
+return moves;
+    }
+};
+/*class Solution {
+public:
+// better approach 
+    int minMoves(vector<int>& nums) {
         int moves=0 ; int l=nums.size()-1;
        int maxEL = *max_element(nums.begin(), nums.end());
        while(l>=0){
@@ -12,9 +26,10 @@ public:
        }
        return moves;
     }
-};
+};*/
 /*class Solution {
 public:
+// brute force approach 
     int minMoves(vector<int>& nums) {
         int  n= nums.size();
         int moves =0;
