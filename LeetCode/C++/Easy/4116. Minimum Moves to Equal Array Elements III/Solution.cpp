@@ -2,7 +2,7 @@ class Solution {
 public:
     int minMoves(vector<int>& nums) {
         int moves=0 ; int l=0;
-       int maxEL = max_element(nums.begin(), nums.end());
+       int maxEL = *max_element(nums.begin(), nums.end());
        while(l>=0){
         if(nums[l]<maxEL){
         nums[l] += 1;
