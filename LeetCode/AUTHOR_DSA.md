@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 24 / 238 (10.1%)
+- **Completed:** 25 / 238 (10.5%)
 
 ---
 
@@ -275,7 +275,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 ### 📂 PART  1: LINKED LISTS Topics Covered: 1.
 - [ ] Middle of the Linked List
 - [ ] Reverse Linked List
-- [ ] Linked List Cycle
+- [x] [Linked List Cycle](./C++/Easy/141. Linked List Cycle/)
 - [ ] Linked List Cycle II
 - [x] [Palindrome Linked List](./C++/Easy/234. Palindrome Linked List/)
 - [x] [Remove Nth Node From End of List](./C++/Medium/19. Remove Nth Node From End of List/)
