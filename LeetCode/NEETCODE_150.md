@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 46 / 150 (30.7%)
+- **Completed:** 47 / 150 (31.3%)
 
 ---
 
@@ -133,7 +133,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Decode Ways
 - [ ] Coin Change
 - [ ] Maximum Product Subarray
-- [ ] Word Break
+- [x] [Word Break](./C++/Medium/139. Word Break/)
 - [ ] Longest Increasing Subsequence
 - [ ] Partition Equal Subset Sum
 
