@@ -58,7 +58,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [x] [Merge Two Sorted Lists](./C++/Easy/21. Merge Two Sorted Lists/)
 - [ ] Reorder List
 - [x] [Remove Nth Node From End of List](./C++/Medium/19. Remove Nth Node From End of List/)
-- [x] [Copy List with Random Pointer](./C++/Uncategorized/Copy List with Random Pointer/)
+- [x] [Copy List with Random Pointer](./C++/Medium/138. Copy List with Random Pointer/)
 - [x] [Add Two Numbers](./C++/Medium/2. Add Two Numbers/)
 - [x] [Linked List Cycle](./C++/Easy/141. Linked List Cycle/)
 - [ ] Find the Duplicate Number
