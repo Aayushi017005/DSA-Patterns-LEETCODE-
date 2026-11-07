@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 26 / 238 (10.9%)
+- **Completed:** 27 / 238 (11.3%)
 
 ---
 
@@ -179,7 +179,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Strong Password Checker
 - [ ] Circular Sentence
 - [ ] Reverse Prefix of Word
-- [ ] Reverse Words in a String
+- [x] [Reverse Words in a String](./C++/Medium/151. Reverse Words in a String/)
 - [ ] Length of Last Word
 - [ ] Reverse Words in a String III
 - [ ] Sorting the Sentence
