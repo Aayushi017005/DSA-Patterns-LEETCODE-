@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 27 / 238 (11.3%)
+- **Completed:** 28 / 238 (11.8%)
 
 ---
 
@@ -280,7 +280,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [x] [Palindrome Linked List](./C++/Easy/234. Palindrome Linked List/)
 - [x] [Remove Nth Node From End of List](./C++/Medium/19. Remove Nth Node From End of List/)
 - [ ] Delete Node in a Linked List
-- [ ] Delete the Middle Node of a Linked List
+- [x] [Delete the Middle Node of a Linked List](./C++/Medium/2216. Delete the Middle Node of a Linked List/)
 - [ ] Remove Duplicates from Sorted List
 - [ ] Remove Linked List Elements
 - [x] [Merge Two Sorted Lists](./C++/Easy/21. Merge Two Sorted Lists/)
