@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 28 / 238 (11.8%)
+- **Completed:** 29 / 238 (12.2%)
 
 ---
 
@@ -244,7 +244,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Decode String
 - [ ] Maximum Product of Word Lengths
 - [ ] Flip Bit
-- [ ] Maximum Number of Balloons
+- [x] [Maximum Number of Balloons](./C++/Easy/1297. Maximum Number of Balloons/)
 
 ### 📂 PART  2: PURE MATRIX SIMULATION PROBLEMS
 - [ ] clockwise
