@@ -9,9 +9,60 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-        
+        vector<int> postorder;
+        stack<TreeNode*> st;
+        TreeNode* curr = root;
+        TreeNode* lastVisited = NULL;
+
+        while (curr != NULL || !st.empty()) {
+            if (curr != NULL) {
+                st.push(curr);
+                curr = curr->left;
+            }
+            else {
+                TreeNode* temp = st.top();
+
+                if (temp->right != NULL && lastVisited != temp->right) {
+                    curr = temp->right;
+                }
+                else {
+                    postorder.push_back(temp->val);
+                    lastVisited = temp;
+                    st.pop();
+                }
+            }
+        }
+
+        return postorder;
     }
 };
+/*class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int>postorder;
+        stack<TreeNode*>st1,st2;
+        if(root ==NULL) return postorder;
+         st1.push(root);
+        while(!st1.empty() ){
+            root= st1.top();
+            st1.pop();
+            st2.push(root);
+
+            if(root->left!=NULL){
+                st1.push(root->left);
+            }
+            if(root->right !=NULL){
+                st1.push(root->right);
+            }
+        }
+        while(!st2.empty()){
+            postorder.push_back(st2.top()->val);
+            st2.pop();
+        }
+        return postorder;
+    }
+};*/
