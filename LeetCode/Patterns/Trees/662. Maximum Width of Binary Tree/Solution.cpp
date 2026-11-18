@@ -40,3 +40,6 @@ public:
           return ans;
     }
 };
+// BFS + indexing (level-order traversal)
+/*1. BFS: We use a queue to process nodes level by level.
+2. Indexing: We assign a hypothetical position/index to every node to calculate the width of that level.*/
