@@ -9,7 +9,7 @@ Hash Table, String, Counting
 
 ### 🚀 Performance
 - **Runtime:** 0 ms
-- **Memory:** 8.9 MB
+- **Memory:** 9 MB
 
 ---
 
